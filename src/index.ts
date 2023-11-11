@@ -17,7 +17,7 @@ const main = async () => {
   while (true) {
     // on windows clear gives an issue, it clears onyl current viewport
     // for windows uncomment the below line
-    process.stdout.write("\x1Bc");
+    // process.stdout.write("\x1Bc");
     console.clear();
     try {
       const dataPromise = fs.readFile("log-generator/access.log", {
