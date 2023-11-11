@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "run:test": "ts-node src/index.test.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.199",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "printf": "^0.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.1"
+  }
+}
